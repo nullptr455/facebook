@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(246, 246, 246);
+}
 .main{
    margin-top: 200px;
    margin-left: 50px;
@@ -19,26 +22,74 @@
 .left #heading{
     padding-left: 10px;
     display: inline;
-    font-family: "serif", "sans-serif", "monospace", "cursive", and "fantasy";
+    font-size: 35px;
+    font-weight: lighter;
 }
 .left{
     display: inline;
+    position: relative;
+    left: 160px;
 }
 .right{ 
     position: absolute;
-    height: 400px;
-    width: 400px;
-    right: 80px;
+    height: 420px;
+    width: 500px;
+    right: 200px;
     top: 200px;
     box-shadow: 2px 2px 2px 2px;
     border-radius: 5px;
+    background-color: white;
+
 }
 input{
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 20px;
-    width: 350px;
-    height: 40px;
+    width: 450px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 10px;
+    font-size: 25px ;
+    border: 1px solid rgba(14, 14, 14,0.2);
+    
+}
+.right #login{
+    position: absolute;
+    top: 190px;
+    right: 25px;
+    height: 60px;
+    width: 450px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#link{
+    position: absolute;
+    top: 260px;
+    right: 185px;
+    text-decoration: none;
+}
+p{
+   position: absolute;
+   top: 280px;
+   right: 20px;
+}
+#account{
+    position: absolute;
+    top: 330px;
+    left: 110px;
+    height: 60px;
+    border-radius: 10px;
+    width: 280px;
+    background-color: rgb(60, 214, 21);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px;
+    font-weight: bold;
+
 }

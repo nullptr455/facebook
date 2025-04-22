@@ -93,3 +93,15 @@ p{
     font-weight: bold;
 
 }
+.bodylink{
+    position: absolute;
+    top: 630px;
+    right: 260px;
+    font-size: 18px;
+
+}
+.bodylink a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
